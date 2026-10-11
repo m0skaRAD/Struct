@@ -68,6 +68,8 @@ int main()
             cin.ignore();
             if (index >= 1 && index <= amount) {
                 books[index - 1].change();
+            }else{
+                cout << "Error" << endl;
             }
             break;
         case 2:
